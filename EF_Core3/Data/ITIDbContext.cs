@@ -41,6 +41,7 @@ namespace EF_Core3.Data
                 entity.HasKey(c => c.ID);
                 entity.Property(c => c.Name).IsRequired().HasMaxLength(100);
                 entity.Property(c => c.Description).HasMaxLength(250);
+                // tesssssst
             });
         }
     }
